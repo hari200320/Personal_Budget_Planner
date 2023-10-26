@@ -1,0 +1,70 @@
+Welcome to Personal Budget Planner!Please select an option:
+-----------------------
+1. Add an expense
+2. Remove an expense
+3. Print budget
+4. Quit
+Enter your choice: 1
+Add an expense
+-----------------------
+Enter expense name: House rent
+Enter expense amount: 8000
+8000
+Expense added successfully!
+Welcome to Personal Budget Planner!Please select an option:
+-----------------------
+1. Add an expense
+2. Remove an expense
+3. Print budget
+4. Quit
+Enter your choice: 1
+Add an expense
+-----------------------
+Enter expense name: Bills
+Enter expense amount: 2000
+Expense added successfully!Welcome to Personal Budget Planner!Please select an option:
+-----------------------
+1. Add an expense2. Remove an expense3. Print budget
+4. QuitEnter your choice: 1
+Add an expense
+-----------------------
+Enter expense name: Groceries
+Enter expense amount: 3500
+Expense added successfully!
+Welcome to Personal Budget Planner!Please select an option: 
+
+-----------------------
+1. Add an expense
+2. Remove an expense
+3. Print budget
+4. Quit
+Enter your choice: 1
+Add an expense-----------------------
+Enter expense name: Petrol
+Enter expense amount: 3000
+Expense added successfully!
+Welcome to Personal Budget Planner!Please select an option:
+-----------------------
+1. Add an expense
+2. Remove an expense
+3. Print budget
+4. Quit
+Enter your choice: 1
+Add an expense
+-----------------------
+Enter expense name: Miscellaneous
+Enter expense amount: 4000
+Expense added successfully!
+Welcome to Personal Budget Planner!Please select an option:
+-----------------------
+1. Add an expense
+2. Remove an expense
+3. Print budget
+4. Quit
+Enter your choice: 3
+Personal Budget
+-----------------------
+Household 8000.0$
+Bills 2000.0$
+Groceries 3500.0$
+Petrol 3000.0$ 

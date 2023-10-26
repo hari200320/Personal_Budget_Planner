@@ -1,0 +1,26 @@
+The above code is a Java program for a Personal Budget Planner. It provides users with options
+to add, remove, and print expenses. It uses an ArrayList to store Expense objects, where each
+Expense object represents a single expense with a name and an amount.
+Let's break down the code step by step:
+The first two lines of the code import two classes from the Java utility package: Scanner and
+ArrayList. The Scanner class provides methods to read input from the user, while the ArrayList
+class provides a dynamic array to store Expense objects.
+The program defines a class called PersonalBudgetPlanner, which contains the main method.
+The main method starts by printing a menu and prompting the user to select an option. It then
+uses a switch statement to execute the appropriate method based on the user's choice.
+The printMenu method simply prints the menu options to the console.
+The getChoice method prompts the user to enter a choice and returns the integer value entered.
+The addExpense method prompts the user to enter an expense name and amount, creates a new
+Expense object with these values, and adds it to the budget ArrayList.
+The removeExpense method prompts the user to enter an expense name, loops through the
+budget ArrayList to find the Expense object with that name, and removes it if found.
+The printBudget method prints the current budget to the console. If the budget ArrayList is
+empty, it prints a message indicating that there are no expenses. Otherwise, it loops through
+the ArrayList, printing the name and amount of each expense and calculating the total. It then
+prints the total at the end.
+The Expense class is a simple class that has a constructor to initialize the name and amount of
+an expense, and getters to retrieve the name and amount values.
+Overall, this program provides a basic interface for managing a personal budget. Users can add
+and remove expenses, as well as view a summary of their budget. However, it does not provide
+any advanced features such as budget categories, sorting, or searching. 
+

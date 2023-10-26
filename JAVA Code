@@ -1,0 +1,41 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+public class PersonalBudgetPlanner {
+
+ static Scanner input = new Scanner(System.in);
+ static ArrayList<Expense> budget = new ArrayList<>();
+
+ public static void main(String[] args) {
+
+ while (true) {
+ printMenu();
+ int choice = getChoice();
+ switch (choice) {
+ case 1:
+ addExpense();
+ break;
+ case 2:
+ removeExpense();
+ break;
+ case 3:
+ printBudget();
+ break;
+ case 4:
+ System.out.println("Thank you for using Personal Budget Planner!");
+ System.exit(0);
+ default:
+ System.out.println("Invalid choice, please try again.");
+ }
+ }
+ }
+
+ public static void printMenu() {
+ System.out.println("\nWelcome to Personal Budget Planner!Please select an option:");
+ System.out.println("-----------------------");
+ System.out.println("1. Add an expense");
+ System.out.println("2. Remove an expense");
+ System.out.println("3. Print budget");
+ System.out.println("4. Quit");
+ }
+
+ public static int getChoice() { 
